@@ -19,7 +19,8 @@ namespace QLBHThu3
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();// Exit the application
+         this.Close(); // Close the current form
+            //  Application.Exit();// Exit the application
         }
 
         private void btnShow_Click(object sender, EventArgs e)

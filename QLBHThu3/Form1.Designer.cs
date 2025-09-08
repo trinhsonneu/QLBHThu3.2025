@@ -52,7 +52,7 @@
             this.btnShow.ForeColor = System.Drawing.Color.Blue;
             this.btnShow.Location = new System.Drawing.Point(193, 142);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(160, 45);
+            this.btnShow.Size = new System.Drawing.Size(190, 78);
             this.btnShow.TabIndex = 1;
             this.btnShow.Text = "Hiện";
             this.btnShow.UseVisualStyleBackColor = false;
@@ -65,7 +65,7 @@
             this.btnHide.ForeColor = System.Drawing.Color.Brown;
             this.btnHide.Location = new System.Drawing.Point(445, 142);
             this.btnHide.Name = "btnHide";
-            this.btnHide.Size = new System.Drawing.Size(160, 45);
+            this.btnHide.Size = new System.Drawing.Size(201, 78);
             this.btnHide.TabIndex = 2;
             this.btnHide.Text = "Ẩn";
             this.btnHide.UseVisualStyleBackColor = false;
@@ -73,7 +73,8 @@
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.Red;
             this.btnExit.Location = new System.Drawing.Point(637, 386);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(145, 50);
